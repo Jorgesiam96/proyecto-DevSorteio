@@ -1,5 +1,5 @@
 
-setTimeout (function sorte() {
+ function sorte() {
     var input1 = Math.ceil(document.querySelector(".input-1").value)
     var input2 = Math.floor(document.querySelector(".input-2").value)
 
@@ -13,4 +13,4 @@ setTimeout (function sorte() {
     else {
         alert("O valor MIN tem que ser maior que o valor MAX")
     }
-} ,timeout)
+} 
